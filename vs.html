@@ -9,30 +9,30 @@
 </head>
 <body>
   <div class="Header">
-    <img class="Logo" src="logo_clear.png">
+    <img class="Logo" src="./img/logo_clear.png" alt="Logo">
   </div>
-  <div class="Body" style="margin:0 ;">
+  <div class="Body" >
     <div class="container" >
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" style=" color: black">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
     
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" style="background-color:blanchedalmond">
+        <div class="carousel-inner" style=" background-color: darkgrey; ;height: 600px;">
           <div class="item active">
-            <img src="./img/picture1@2x.png" alt="picture1" style="width:50vh;height:60vh; padding: 180px">
+            <img class="dot-img" src="./img/picture1@2x.png" alt="picture1" style=" padding: 130px">
           </div>
     
           <div class="item">
-            <img src="./img/picture2@2x.png" alt="picture2" style="width:50vh;height:60vh; padding: 180px;">
+            <img class="dot-img" src="./img/picture2@2x.png" alt="picture2" style=" padding: 90px;">
           </div>
         
           <div class="item">
-            <img src="./img/picture3@2x.png" alt="picture3" style="width:50vh;height:60vh; padding: 180px;">
+            <img class="dot-img" src="./img/picture3@2x.png" alt="picture3" style=" padding: 130px;">
           </div>
         </div>
     
@@ -47,6 +47,11 @@
         </a>
       </div>
     </div>
+  </div>
+  <div class="Footer">
+    <input class="btn1" type="button" value="Skip">
+    <div class="divider"></div>
+    <input class="btn2" type="button" value="Continue">
   </div>
   <script src="vs.js"></script>
 </body>

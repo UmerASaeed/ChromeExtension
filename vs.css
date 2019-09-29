@@ -1,25 +1,59 @@
-html,body{
-    margin: 0;
-    
+body{
+  margin: 0%;    
 }
 
 .Header{
-    display: flex;
-    justify-content: center;
-    width: 50vh;
-    height: 10vh;
-    background-color: grey;
+    width: 39vh;
+    height: 100px;
+    background-color:black;
 }
-.Header >img 
+.Logo 
 {
-    width:70%
+    width:65%
 }
 
 .Body
 {
-    margin: 0;
     display:flex;
-    height: 60vh;
-    width:50vh;
-   
+    height: auto;
+    width:533px;   
+    background-color: darkgrey;
+    
+}
+
+.dot_img
+{
+    height: 200px;
+    width:40vh; 
+}
+
+.Footer 
+{
+    display: flex;
+    width:40vh; 
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+.btn1
+{
+    height: 60px;
+    width: 170px;
+    color: rgba(211, 84, 0, 0.938);
+    background-color: white;
+}
+
+.btn2
+{
+    height: 60px;
+    width: 170px;
+    color: white;
+    background-color:  rgba(211, 84, 0, 0.938);
+}
+
+.divider{
+    width:100px;
+    height:auto;
+    display:inline-block;
 }
