@@ -1,0 +1,25 @@
+html,body{
+    margin: 0;
+    
+}
+
+.Header{
+    display: flex;
+    justify-content: center;
+    width: 50vh;
+    height: 10vh;
+    background-color: grey;
+}
+.Header >img 
+{
+    width:70%
+}
+
+.Body
+{
+    margin: 0;
+    display:flex;
+    height: 60vh;
+    width:50vh;
+   
+}
