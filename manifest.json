@@ -1,0 +1,13 @@
+{
+"manifest_version" : 2,
+"name" : "Belka VPN",
+"description" : "The BelkaVPN extension is a remote control for the desktop app",
+"version" : "1.0.0",
+"browser_action":
+{
+    "default_icon":"./img/ic_launcher_round.png",
+    "default_popup" : "vs.html"
+},
+"content_security_policy": "script-src 'self' https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js; object-src 'self'",
+"permissions":["activeTab"]
+}

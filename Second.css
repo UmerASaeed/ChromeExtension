@@ -1,0 +1,32 @@
+html,body{
+    margin: 0;
+}
+.Header{
+    width: 39vh;
+    height: 100px;
+    background-color:black;
+}
+.Logo 
+{
+    width:65%
+}
+.Body
+{
+    display: flex;
+    height: 500px;
+    width: 533px; 
+    background-color: black;  
+}
+.Footer
+{
+    display: flex;
+    justify-content:center;
+    width: 533px;
+}
+.btn1
+{
+    height: 60px;
+    width: 310px;
+    color: white;
+    background-color: rgba(211, 84, 0, 0.938);
+}

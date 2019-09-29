@@ -2,39 +2,41 @@
 <html>
 <head>
   <title>Belka_VPN</title>
-  <link rel="stylesheet" href="vs.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="vs.css">
 </head>
 <body>
+<div class="Hcontainer">
   <div class="Header">
-    <img class="Logo" src="./img/logo_clear.png" alt="Logo">
+    <img class="logo" src="./img/logo_clear@2x.png" alt="Logo">
   </div>
+</div>
   <div class="Body" >
     <div class="container" >
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide" >
         <!-- Indicators -->
-        <ol class="carousel-indicators" style=" color: black">
+        <ol class="carousel-indicators" >
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
     
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" style=" background-color: darkgrey; ;height: 600px;">
+        <div class="carousel-inner" >
           <div class="item active">
-            <img class="dot-img" src="./img/picture1@2x.png" alt="picture1" style=" padding: 130px">
+            <img class="dot-img" src="./img/picture1.png" alt="picture1" >
           </div>
     
           <div class="item">
-            <img class="dot-img" src="./img/picture2@2x.png" alt="picture2" style=" padding: 90px;">
+            <img class="dot-img" src="./img/picture2.png" alt="picture2" >
           </div>
         
           <div class="item">
-            <img class="dot-img" src="./img/picture3@2x.png" alt="picture3" style=" padding: 130px;">
+            <img class="dot-img" src="./img/picture3.png" alt="picture3" >
           </div>
-        </div>
+        </div> 
     
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -49,9 +51,11 @@
     </div>
   </div>
   <div class="Footer">
-    <input class="btn1" type="button" value="Skip">
+    <form action="Second.html">   
+    <input class="btn1" type="submit" value="Skip">
+    </form>
     <div class="divider"></div>
-    <input class="btn2" type="button" value="Continue">
+      <input class="btn2" type="submit" value="Continue">
   </div>
   <script src="vs.js"></script>
 </body>
