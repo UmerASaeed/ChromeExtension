@@ -11,17 +11,14 @@ body{
   margin: 0%;    
 }
 
-.Hcontainer
-{
-    display: flex;
-    justify-content: flex-start
-}
 .Header
 {
+    display: flex;
     margin: 0px;
     background-color:black;
     width: 100%;
     height: 120px;
+    justify-content:center;
 }
 
 .logo
@@ -30,8 +27,10 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
+ 
     .Header
     {
+        justify-content: flex-start;
         height: 70px;
     }
     .logo
@@ -64,42 +63,11 @@ body{
     height: 900px;   
 }
 
-@media only screen and (max-width: 540px) 
-{
-    .carousel-inner
-    {
-        height: 450px;
-        padding: 130px;
-    }
-    
-    .Body
-   {
-    height: 450px;   
-   } 
-   
-.btn1
-{
-    height: 60px;
-    width: 100px;
-    color: rgba(211, 84, 0, 0.938);
-    background-color: white;
-}
-
-.btn2
-{
-    height: 60px;
-    width: 100px;
-    color: white;
-    background-color:  rgba(211, 84, 0, 0.938);
-}
-
-}
-
 .Footer 
 {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-content: space-around;
 
 }
 
@@ -123,4 +91,51 @@ body{
     width:100px;
     height:auto;
     display:inline-block;
+
 }
+
+@media only screen and (max-width: 540px) 
+{
+    .carousel-inner
+    {
+        height: 460px;
+        padding: 150px;
+    }
+    
+    .Body
+   {
+    height: 460px;   
+   }
+
+   
+.Footer 
+{
+ 
+    justify-content:center;
+    width: 520px;
+
+}
+   .btn1
+{
+    height: 60px;
+    width: 170px;
+    color: rgba(211, 84, 0, 0.938);
+    background-color: white;
+}
+
+.btn2
+{
+    height: 60px;
+    width: 170px;
+    color: white;
+    background-color:  rgba(211, 84, 0, 0.938);
+}
+.divider{
+    width:90px;
+    height:auto;
+    display:inline-block;
+}
+}
+
+
+ 
