@@ -1,8 +1,8 @@
-
+/* 
 .slide
 {
     background-color: black;
-}  
+}   */
 
 ol.carousel-indicators li.active {
     background:black;
@@ -26,7 +26,7 @@ body{
     width: 400px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
  
     .Header
     {
@@ -94,7 +94,7 @@ body{
 
 }
 
-@media only screen and (max-width: 500px) 
+@media only screen and (max-width: 550px) 
 {
     .carousel-inner
     {
@@ -119,7 +119,7 @@ body{
    .btn1
 {
     height: 50px;
-    width: 80px;
+    width: 100px;
     color: rgba(211, 84, 0, 0.938);
     background-color: white;
 }
@@ -127,7 +127,7 @@ body{
 .btn2
 {
     height: 50px;
-    width: 80px;
+    width: 100px;
     color: white;
     background-color:  rgba(211, 84, 0, 0.938);
 }

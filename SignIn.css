@@ -1,13 +1,15 @@
 html,body{
     margin: 0;
 }
-.Container
+.container
 {
     height: 100vh;
     width: 100%; 
     display: flex;
     flex-direction: column;
+    
 }
+
  .Header
 {   
     display: flex;
@@ -21,33 +23,41 @@ html,body{
     width: 410px;
     height: 180px;
 }
+
 .Body
 {
-    display: flex; 
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 75%;
 }
-.Footer
-{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    height: 10%;
 
+.Email
+{
+    width:222px;
+    height: 20px;
+    align-content: center;
 }
+
+.password
+{
+    width:222px;
+    height: 20px;
+}
+
 .btn1
 {
-    height: 60px;
-    width: 310px;
+    width:222px;
+    height: 30px;
     color: white;
     background-color: rgba(211, 84, 0, 0.938);
 }
 
 @media only screen and (max-width: 550px)
 {
-    .Container
+    .container
     {
-        height: 450px;
+        height: 470px;
         width: 325px; 
         
     }
@@ -64,15 +74,14 @@ html,body{
 
 .Body
 {
-    height: 72%;
+    height: 85%;
 }
 
 .btn1
 {
-    height: 50px;
-    width: 180px;
+    width:222px;
+    height: 30px;
     color: white;
     background-color: rgba(211, 84, 0, 0.938);
 }
-
 }
