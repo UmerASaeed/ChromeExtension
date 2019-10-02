@@ -9,7 +9,7 @@ $(document).ready(function(){
   //   $("#myCarousel").carousel("prev");
   // });
   
-    var txt1=`<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    var txt1=`<a class=" carousel-control" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
     <span class="sr-only">Previous</span>
      </a>
