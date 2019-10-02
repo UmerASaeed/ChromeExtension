@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fifth.css" />
+    <title>Select Country</title>
+</head>
+<body>
+
+    <div class="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top" >
+            <div class="navcontainer">
+            <a href="fourth.html" class="btn previous round">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <p class="navbar-text" style="margin-left:10px; font-size:20px">Connect to a specific country</p>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <input type="search" class="search_box" onkeyup="select_country()" placeholder="&nbsp; Search for Country"><br/>
+        <table class="table table-hover table-borderless table-responsive tbl">
+            <tbody>
+              <tr class="clickable-row">
+                <td>Japan</td>
+                <td class="scnd_column">&#9900; Connected</td>
+              </tr>
+              <tr class="clickable-row">
+                <td>Turkey</td>
+                <td class="scnd_column">&#9900; Connected</td>
+              </tr>
+              <tr class="clickable-row">
+                <td>Saudi Arbia</td>
+                <td class="scnd_column">&#9900; Connected</td>
+              </tr>
+            </tbody>
+          </table>
+
+    </div>
+
+    <!-- <script>
+
+        // jquery to highlight selected row
+        
+            $('.tbl').on('click', '.clickable-row', function(event) {
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+    
+
+            /*function select_country() {
+            var input,filter,table,tr,td,i,txtvalue;
+            input=document.getElementsByClassName("search_box")[0].innerHTML.toLocaleUpperCase;
+            console.log(input);
+            input=input.toUpperCase();
+            tr=document.getElementsByClassName("tbl").item[0].getElementsByTagName("tr");
+            console.log(tr);
+
+            for (i=0; i<tr.length; i++) {
+                td=tr[i].getElementsByTagName("td")[0];
+                if(td){
+                    txtvalue=td.txtvalue||td.textContent;
+                    if(txtvalue.toUpperCase().indexOf(input)>-1){
+                        tr[i].style.display="";
+                    }
+                    else {
+                        tr[i].style.display=none;
+                    }
+                }
+            }
+        }*/
+
+
+    </script> -->
+    
+</body>
+</html>

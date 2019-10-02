@@ -1,90 +1,92 @@
-/* 
-.slide
-{
-    background-color: black;
-}   */
 
-ol.carousel-indicators li.active {
-    background:black;
-  }
-body{
-  margin: 0%;    
+html,body{
+  margin: 0%;   
+  width:100%;
+height: 100%; 
 }
-
-.Header
+.Container
 {
+    height: 100vh;
+    width: 100%; 
     display: flex;
-    margin: 0px;
+    flex-direction: column;
+}
+ .Header
+{   
+    display: flex;
     background-color:black;
-    width: 100%;
-    height: 120px;
-    justify-content:center;
+    justify-content: center;
+    height: 15%;
 }
 
-.logo
+.Header .Logo
 {
-    width: 400px;
+    width: 0%;
+    max-height: 100%;
 }
-
-@media only screen and (max-width: 550px) {
- 
-    .Header
-    {
-        justify-content: flex-start;
-        height: 70px;
-    }
-    .logo
-    {
-        width:250px;
-    }
-
-}
-
-.container{
-    width: 100%;
-    margin-left: 0;
-}
-.carousel-inner
-{
-    background-color:whitesmoke; 
-    ;height: 900px;
-     padding: 200px
-}
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 400px;
-    margin: auto;
-  }
-
-
 .Body
 {
-    display:flex;
-    height: 900px;   
+    display: flex; 
+    justify-content: center;
+    height: 75%;
 }
 
-.Footer 
+.container1
 {
+  width: 100%;
+  height:100%;
+  
+}
+.carousel
+{
+  display: flex;
     width: 100%;
+    height:100%;
+  
+}
+
+.carousel-inner{
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+
+  ol.carousel-indicators li.active {
+    background:darkgray;
+    
+  }
+
+  .carousel-inner > .item > .img1,.carousel-inner > .item > .img3{
+    padding:20%;
+    margin: auto;
+  }
+  .carousel-inner > .item > .img2
+  {
+    padding:15%;
+  }
+.Footer
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 10%;
 
 }
 
 .btn1
 {
     height: 60px;
-    width: 170px;
+    width: 155px;
     color: rgba(211, 84, 0, 0.938);
     background-color: white;
-}
 
+}
 .btn2
 {
     height: 60px;
-    width: 170px;
+    width: 155px;
     color: white;
-    background-color:  rgba(211, 84, 0, 0.938);
+    background-color: rgba(211, 84, 0, 0.938);
 }
 
 .divider{
@@ -93,48 +95,66 @@ body{
     display:inline-block;
 
 }
-
-@media only screen and (max-width: 550px) 
-{
-    .carousel-inner
-    {
-        height: 400px;
-        padding: 70px;
-    }
-    
-    .Body
-   {
-    height: 400px;   
-   }
-
-   .logo
-    {
-        width:200px;
-    }
-.Footer 
-{
-    justify-content: center;
-    width: 300px;
+.divider1{
+    width:10px;
+    height:auto;
+    display:inline-block;
 }
-   .btn1
+
+@media only screen and (max-width: 550px)
+{
+    .Container
+    {
+        height: 450px;
+        width: 325px; 
+        
+    }
+.Header
+{
+    height: 15%;
+    justify-content: center;
+}
+.Header .Logo
+{
+    height: 70px;
+    width: 180px;
+}
+
+.Body
+{
+    height: 72%;
+}
+
+.carousel-inner > .item > .img1,.carousel-inner > .item > .img3{
+    padding:30%;
+    margin: auto;
+  }
+  .carousel-inner > .item > .img2
+  {
+    padding:22%;
+  }
+
+.btn1
 {
     height: 50px;
-    width: 100px;
-    color: rgba(211, 84, 0, 0.938);
-    background-color: white;
+    width: 110px;
+    color: white;
+    background-color: rgba(211, 84, 0, 0.938);
 }
 
 .btn2
 {
     height: 50px;
-    width: 100px;
+    width: 110px;
     color: white;
-    background-color:  rgba(211, 84, 0, 0.938);
+    background-color: rgba(211, 84, 0, 0.938);
 }
+
 .divider{
-    width:30px;
+    width:45px;
     height:auto;
     display:inline-block;
+
 }
 }
 

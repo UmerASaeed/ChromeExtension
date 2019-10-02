@@ -20,8 +20,8 @@ html,body{
 
 .Header .Logo
 {
-    width: 410px;
-    height: 180px;
+    max-width: 60%;
+    max-height: 100% ;
 }
 
 .Body
@@ -64,12 +64,12 @@ html,body{
 .Header
 {
     height: 15%;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .Header .Logo
 {
     height: 70px;
-    width: 160px;
+    width: 180px;
 }
 
 .Body
@@ -80,7 +80,7 @@ html,body{
 .btn1
 {
     width:222px;
-    height: 30px;
+    height: 33px;
     color: white;
     background-color: rgba(211, 84, 0, 0.938);
 }

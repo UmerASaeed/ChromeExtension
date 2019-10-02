@@ -1,0 +1,117 @@
+body
+{
+    margin:0%;
+}
+
+.wrapper
+{
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+.Header
+{
+    margin:0px;
+    background-color:black;
+    width:100%;
+    height:20%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo
+{
+    width:400px;
+    margin:auto;
+}
+
+
+/* Last page CSS */
+
+.flag
+{
+    width:85px;
+    max-width:100%;
+    height:65px;
+}
+
+.container
+{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    padding: 5% 0 5% 0;    
+    width:100%;
+    height: 80%;
+}
+
+.country_connect
+{
+    text-align: center;
+    width:auto;
+}
+
+.disconnect_btn
+{
+    margin-top:18%;
+    margin-bottom: 7%;
+    width:80%;
+    height:40px;
+    color: white;
+    background-color:  rgba(211, 84, 0, 0.938);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+pre 
+{
+    border: 0; 
+    background-color: transparent;
+}
+
+@media only screen and (max-width:550px) {
+    .wrapper
+    {
+        height: 450px;
+        width: 325px; 
+        
+    }
+    .Header
+    {
+        margin-right:0;
+        justify-content: center;
+        height:20%;
+        width:100%;
+    }
+    .logo
+    {
+        height: 70px;
+        width: 180px;
+    }
+    
+    .disconnect_btn
+    {
+        align-self: center;
+        margin:auto;
+    }
+
+    body{
+        /* to adjust popup size */
+        height: 450px;
+        width: 325px; 
+    }
+}
+
+/*@media only screen and (max-width:300px)
+{
+    body
+    {
+        width:fit-content;
+    }
+}*/
