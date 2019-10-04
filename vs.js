@@ -21,10 +21,10 @@ $(document).ready(function(){
     $("#myCarousel").carousel(2);
   });
   
-  $("#myCarousel").on('slid.bs.carousel', function () {
-    alert('The carousel has finished sliding from one item to another!');
-  });
-  
+  // $("#myCarousel").on('slid.bs.carousel', function () {
+  //   if (ind===)
+  // });
+
   $(".btn2").click(function(){
     if(ind==2)
     {
