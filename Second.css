@@ -48,7 +48,7 @@ html,body{
 {
     .Container
     {
-        height: 450px;
+        height: 455px;
         width: 325px; 
         
     }
@@ -59,9 +59,10 @@ html,body{
 }
 .Header .Logo
 {
-    height: 70px;
+    height: 55px;
     width: 200px;
     margin-left:10px;
+    padding-top: 6px;
 }
 
 .Body
@@ -75,6 +76,7 @@ html,body{
     width: 180px;
     color: white;background-color: #6391E8;
     font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
 }
 
 }

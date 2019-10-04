@@ -73,8 +73,8 @@ html,body{
   
   .desc1
   {
-      color: rgba(71, 62, 56, 0.938);
-      font-family: 'Roboto', sans-serif;
+      color: black;
+      /* font-family: 'Roboto', sans-serif; */
   }
   .carousel-caption1
   {
@@ -82,14 +82,15 @@ html,body{
     position: relative;
     left: 0;
     top:220px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
   }
  
   .carousel-caption .desc2
   {
 
-    color: rgba(71, 62, 56, 0.938);
+    color: black;
     font-family: 'Roboto', sans-serif;
-    
     /* height:100px;
     bottom: 0 ;
     left: 50%;
@@ -98,7 +99,7 @@ html,body{
   .desc3
   {
       
-      color: rgba(71, 62, 56, 0.938);
+      color: black;
       font-family: 'Roboto', sans-serif;
       margin-left:5px ;
   }
@@ -152,9 +153,11 @@ html,body{
 }
 .Header .Logo
 {
+    padding-top: 7px;
     height: 70px;
     width: 195px;
-    margin-left:10px
+    margin-left:10px;
+    padding-bottom: 7px;
 }
 
 .Body
@@ -188,6 +191,7 @@ html,body{
     background-color: #6391E8;
     margin-bottom: 5px;
     font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
 }
 
 .btn2
@@ -198,6 +202,7 @@ html,body{
     background-color: #6391E8;
     margin-bottom: 5px;
     font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
 }
 
 .divider{

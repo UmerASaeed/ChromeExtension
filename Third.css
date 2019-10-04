@@ -35,26 +35,28 @@ html,body{
 
 .Email
 {
-    width:222px;
+    width:278px;
     height: 20px;
-    align-content: center;
+    border-radius: 3px;
 }
 
 .password
 {
-    width:222px;
+    width:278px;
     height: 20px;
+    border-radius: 3px;
 }
 .log_in,.p1,.sign_up,.fpass{
     font-family: 'Roboto', sans-serif;
 }
 .btn1
 {
-    width:222px;
+    width:278px;
     height: 30px;
     color: white;
     background-color: #6391E8;
     font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
 }
 p
 {
@@ -84,20 +86,20 @@ a
     .log_in
     {
         display: flex;
-        width: 228px;
+        width: 275px;
         justify-content:flex-start;
     
     }
     .p1
     {
         display: flex;
-        width: 228px;
+        width: 278px;
         justify-content:flex-start;
     }
     .fpass
     {
         display: flex;
-        width: 217px;
+        width: 270px;
         justify-content:flex-start;
     }
 .Header
@@ -107,9 +109,10 @@ a
 }
 .Header .Logo
 {
-    height: 70px;
-    width: 195px;
+    height: 55px;
+    width: 200px;
     margin-left:10px;
+    padding-top: 6px;
 }
 
 .Body
@@ -119,10 +122,11 @@ a
 
 .btn1
 {
-    width:222px;
+    width:282px;
     height: 30px;
     color: white;
     background-color: #6391E8;
     font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
 }
 }

@@ -34,15 +34,17 @@ html,body{
 
 .Email
 {
-    width:222px;
+    width:278px;
     height: 20px;
     align-content: center;
+    border-radius: 2px;
 }
 
 .password
 {
-    width:222px;
+    width:278px;
     height: 20px;
+    border-radius: 2px;
 }
 .sign_up1{
     font-family: 'Roboto', sans-serif;
@@ -66,7 +68,7 @@ html,body{
     .sign_up1
     {
         display: flex;
-        width: 228px;
+        width: 288px;
         justify-content:flex-start;
     }
 .Header
@@ -76,9 +78,10 @@ html,body{
 }
 .Header .Logo
 {
-    height: 70px;
+    height: 55px;
     width: 200px;
     margin-left:10px;
+    padding-top: 6px;
 }
 
 .Body
@@ -88,10 +91,11 @@ html,body{
 
 .btn1
 {
-    width:222px;
+    width:282px;
     height: 33px;
     color: white;
     background-color: #6391E8;
     font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
 }
 }
