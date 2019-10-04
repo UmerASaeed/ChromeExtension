@@ -3,7 +3,6 @@ html,body{
   margin: 0%;   
   width:100%;
   height: 100%; 
-  background:rgba(109, 109, 109, 0.2);
 }
 .Container
 {
@@ -11,19 +10,18 @@ html,body{
     width: 100%; 
     display: flex;
     flex-direction: column;
-    background:rgba(109, 109, 109, 0.2);
 }
  .Header
 {   
     display: flex;
-    background-color:black;
+    background-color:#EAAC7B;
     justify-content: center;
     height: 15%;
 }
 
 .Header .Logo
 {
-    width: 0%;
+    max-width:100%;
     max-height: 100%;
 }
 .Body
@@ -44,7 +42,7 @@ html,body{
   display: flex;
     width: 100%;
     height:100%;
-    background:rgba(109, 109, 109, 0.2);
+    
   
 }
 
@@ -54,11 +52,15 @@ html,body{
     align-items: center;
   }
 
+  ol.carousel-indicators li
+  {
+    background:rgba(109, 109, 109, 0.2);
+  }
   ol.carousel-indicators li.active {
-    background:black;
+    background:rgba(109, 109, 109, 1);
     
   }
-
+  
   .carousel-inner > .item > .img1,.carousel-inner > .item > .img3{
     padding:20%;
     margin: auto;
@@ -66,31 +68,63 @@ html,body{
   .carousel-inner > .item > .img2
   {
     padding:15%;
+    margin: auto;
   }
+  
+  .desc1
+  {
+      color: rgba(71, 62, 56, 0.938);
+      font-family: 'Roboto', sans-serif;
+  }
+  .carousel-caption1
+  {
+    
+    position: relative;
+    left: 0;
+    top:220px;
+  }
+ 
+  .carousel-caption .desc2
+  {
+
+    color: rgba(71, 62, 56, 0.938);
+    font-family: 'Roboto', sans-serif;
+    
+    /* height:100px;
+    bottom: 0 ;
+    left: 50%;
+    margin-left: -470px; */
+  }
+  .desc3
+  {
+      
+      color: rgba(71, 62, 56, 0.938);
+      font-family: 'Roboto', sans-serif;
+      margin-left:5px ;
+  }
+
+  /* .carousel-caption
+  {
+    margin-top: -5px;
+   
+  } */
 .Footer
 {
     display: flex;
     justify-content:center;
     align-items: center;
     height: 10%;
-    background:rgba(109, 109, 109, 0.2);
+   
 }
 
-.btn1
-{
-    height: 60px;
-    width: 155px;
-    color: rgba(211, 84, 0, 0.938);
-    background-color: white;
-
-}
-.btn2
+.btn1,.btn2
 {
     height: 60px;
     width: 155px;
     color: white;
-    background-color: rgba(211, 84, 0, 0.938);
+    background-color: #6391E8;
 }
+
 
 .divider{
     width:100px;
@@ -110,18 +144,17 @@ html,body{
     {
         height: 450px;
         width: 325px; 
-        background:rgba(109, 109, 109, 0.2);
-        
     }
 .Header
 {
     height: 15%;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .Header .Logo
 {
     height: 70px;
-    width: 180px;
+    width: 195px;
+    margin-left:10px
 }
 
 .Body
@@ -131,20 +164,30 @@ html,body{
 
 .carousel-inner > .item > .img1,.carousel-inner > .item > .img3{
     padding:30%;
-    margin: auto;
+    margin-top: -40px;
+  }
+  .carousel-inner > .item > .img3
+  {
+      margin-left:-5px;
   }
   .carousel-inner > .item > .img2
   {
-    padding:22%;
+      
+    padding:20%;
   }
-
+  .carousel-caption
+  {
+      
+      align-self: baseline;
+  }
 .btn1
 {
     height: 50px;
     width: 110px;
     color: white;
-    background-color: rgba(211, 84, 0, 0.938);
+    background-color: #6391E8;
     margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn2
@@ -152,8 +195,9 @@ html,body{
     height: 50px;
     width: 110px;
     color: white;
-    background-color: rgba(211, 84, 0, 0.938);
+    background-color: #6391E8;
     margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .divider{

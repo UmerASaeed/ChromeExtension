@@ -13,7 +13,7 @@ html,body{
  .Header
 {   
     display: flex;
-    background-color:black;
+    background-color:#EAAC7B;;
     justify-content: center;
     height: 15%;
 }
@@ -44,37 +44,46 @@ html,body{
     width:222px;
     height: 20px;
 }
-
+.sign_up1{
+    font-family: 'Roboto', sans-serif;
+}
 .btn1
 {
     width:222px;
     height: 30px;
     color: white;
-    background-color: rgba(211, 84, 0, 0.938);
+    background-color: #6391E8;
 }
 
 @media only screen and (max-width: 550px)
 {
     .container
     {
-        height: 470px;
+        height: 450px;
         width: 325px; 
         
     }
+    .sign_up1
+    {
+        display: flex;
+        width: 228px;
+        justify-content:flex-start;
+    }
 .Header
 {
-    height: 15%;
-    justify-content: center;
+    height: 16.5%;
+    justify-content: flex-start;
 }
 .Header .Logo
 {
     height: 70px;
-    width: 180px;
+    width: 200px;
+    margin-left:10px;
 }
 
 .Body
 {
-    height: 85%;
+    height: 80%;
 }
 
 .btn1
@@ -82,6 +91,7 @@ html,body{
     width:222px;
     height: 33px;
     color: white;
-    background-color: rgba(211, 84, 0, 0.938);
+    background-color: #6391E8;
+    font-family: 'Roboto', sans-serif;
 }
 }

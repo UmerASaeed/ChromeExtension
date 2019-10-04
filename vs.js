@@ -4,37 +4,33 @@ $(document).ready(function(){
   let ind=0;
 
     
-  // Enable Carousel Controls
-  // $(".left").click(function(){
-  //   $("#myCarousel").carousel("prev");
-  // });
-  
-    var txt1=`<a class=" carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-     </a>
-       `
-
+  $(".item1").click(function(){
+    ind=0;
+    $("#myCarousel").carousel(0);
+  });
+  $(".item2").click(function(){
+    ind=1;
+    $("#myCarousel").carousel(1);
+  });
+  $(".item3").click(function(){
+    ind=2;
+    $("#myCarousel").carousel(2);
+  });
+    
   $(".btn2").click(function(){
-    $('.carousel').on('slid.bs.carousel',function(e){
-    var index = $(this).find('.active').index();
-    if (index===2)
+    if(ind==2)
     {
-      $('.carousel-inner').append(txt1);
+      window.location.href="Second.html";
+    }
+    if (ind===0)
+    {
+      $("#myCarousel").carousel("next");
       ind=1;
     }
-    else
+    else if (ind===1)
     {
-      ind=0;
-    }
-    });
-    if (ind!==1)
-    {
-    $("#myCarousel").carousel("next");
-    }
-    else
-    {
-        window.location.href="Second.html";
+      $("#myCarousel").carousel("next");
+      ind=2;
     }
   });
 

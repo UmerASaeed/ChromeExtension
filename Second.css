@@ -11,7 +11,7 @@ html,body{
  .Header
 {   
     display: flex;
-    background-color:black;
+    background-color:#EAAC7B;
     justify-content: center;
     height: 15%;
 }
@@ -41,6 +41,7 @@ html,body{
     width: 310px;
     color: white;
     background-color: rgba(211, 84, 0, 0.938);
+    font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (max-width: 325px)
@@ -54,12 +55,13 @@ html,body{
 .Header
 {
     height: 15%;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .Header .Logo
 {
     height: 70px;
-    width: 180px;
+    width: 200px;
+    margin-left:10px;
 }
 
 .Body
@@ -71,8 +73,8 @@ html,body{
 {
     height: 50px;
     width: 180px;
-    color: white;
-    background-color: rgba(211, 84, 0, 0.938);
+    color: white;background-color: #6391E8;
+    font-family: 'Roboto', sans-serif;
 }
 
 }
