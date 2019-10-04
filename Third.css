@@ -46,7 +46,12 @@ html,body{
     height: 20px;
     border-radius: 3px;
 }
-.log_in,.p1,.sign_up,.fpass{
+.p1,.sign_up,.fpass{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.log_in
+{
     font-family: 'Roboto', sans-serif;
 }
 .btn1
@@ -62,16 +67,10 @@ p
 {
     font-style: initial;
 }
-span a
-{
-    font-style: initial;
-    text-decoration: none;
-    color:#6391E8;
-}
-
 a
 {
     font-style: initial;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color:#6391E8;
 }
@@ -79,7 +78,7 @@ a
 {
     .container
     {
-        height: 450px;
+        height: 455px;
         width: 325px; 
         
     }

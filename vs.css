@@ -68,13 +68,14 @@ html,body{
   .carousel-inner > .item > .img2
   {
     padding:15%;
-    margin: auto;
+    /* margin: auto; */
   }
   
   .desc1
   {
       color: black;
-      /* font-family: 'Roboto', sans-serif; */
+      font-size: 15px;
+      
   }
   .carousel-caption1
   {
@@ -91,10 +92,7 @@ html,body{
 
     color: black;
     font-family: 'Roboto', sans-serif;
-    /* height:100px;
-    bottom: 0 ;
-    left: 50%;
-    margin-left: -470px; */
+    font-size: 15px;
   }
   .desc3
   {
@@ -102,6 +100,7 @@ html,body{
       color: black;
       font-family: 'Roboto', sans-serif;
       margin-left:5px ;
+      font-size: 15px;
   }
 
   /* .carousel-caption
@@ -176,7 +175,7 @@ html,body{
   .carousel-inner > .item > .img2
   {
       
-    padding:20%;
+    padding:17%;
   }
   .carousel-caption
   {
