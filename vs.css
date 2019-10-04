@@ -45,7 +45,6 @@ html,body{
     
   
 }
-
 .carousel-inner{
     display: flex;
     justify-content: center;
@@ -60,7 +59,6 @@ html,body{
     background:rgba(109, 109, 109, 1);
     
   }
-  
   .carousel-inner > .item > .img1,.carousel-inner > .item > .img3{
     padding:20%;
     margin: auto;
@@ -68,14 +66,11 @@ html,body{
   .carousel-inner > .item > .img2
   {
     padding:15%;
-    /* margin: auto; */
   }
-  
   .desc1
   {
       color: black;
-      font-size: 15px;
-      
+      font-size: 15px;  
   }
   .carousel-caption1
   {
@@ -102,12 +97,12 @@ html,body{
       margin-left:5px ;
       font-size: 15px;
   }
-
-  /* .carousel-caption
-  {
-    margin-top: -5px;
-   
-  } */
+  .carousel-inner .carousel-item {
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, 
+    -webkit-transform 0.3s ease;
+  }
 .Footer
 {
     display: flex;
