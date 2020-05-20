@@ -1,0 +1,24 @@
+{
+  "name": "belka-vpn",
+  "version": "1.0.0",
+  "description": "An extension for VPN",
+  "main": "index.js",
+  "dependencies": {
+    "device-uuid": "^1.0.4",
+    "query-string": "^6.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/artem_bogomaz/belkavpn-webchrome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/artem_bogomaz/belkavpn-webchrome/issues"
+  },
+  "homepage": "https://gitlab.com/artem_bogomaz/belkavpn-webchrome#readme"
+}

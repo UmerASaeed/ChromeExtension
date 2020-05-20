@@ -1,0 +1,125 @@
+{
+    "appName": {
+        "message": "BelkaVPN is Proxy, VPN to Unblock web-sites"
+    },
+
+    "shortAppName": {
+        "message": "BelkaVPN"
+    },
+
+    "appDesc": {
+        "message": "BelkaVPN is Proxy, VPN to Unblock any web-sites"
+    },
+
+    "desc1": {
+        "message": "Unlock geo restrictions and website filters"
+    },
+
+    "desc2": {
+        "message": "Browse invisibly with stealth technology"
+    },
+
+    "desc3": {
+        "message": "Premium service with an affordable price tag"
+    },
+
+    "skip": {
+        "message": "Skip"
+    },
+
+    "continue": {
+        "message": "Continue"
+    },
+
+    "loginto": {
+        "message": "Log into your account"
+    },
+
+    "no_account": {
+        "message": "Don't have an account yet? "
+    },
+
+    "signup": {
+        "message": " Sign Up"
+    },
+
+    "invalid": {
+        "message": "Invalid Username or Password"
+    },
+
+    "emailPlaceholder": {
+		"message": " Email/UserName"
+	},
+
+	"passwordPlaceholder": {
+		"message": " ********"
+    },
+
+    "login": {
+        "message": "Login"
+    },
+
+    "forgotpassword": {
+        "message": "Forgot your password?"
+    },
+
+    "confirmpassword": {
+        "message": " Confirm Password"
+    },
+
+    "signme": {
+        "message": "SIGN ME UP"
+    },
+
+    "back": {
+        "message": "GO BACK"
+    },
+
+    "fields": {
+        "message": "All fields are required."
+    },
+
+    "notconnected": {
+        "message": "Not Connected"
+    },
+
+    "onmessage": {
+        "message": "Turn on BelkaVPN to encrypt your data and unlock the web."
+    },
+
+    "err": {
+        "message": "Oops!, Could not connect right now."
+    },
+
+    "connect": {
+        "message": "Auto Connect"
+    },
+
+    "location": {
+        "message": "Choose Location"
+    },
+
+    "connected": {
+        "message": "Connected to "
+    },
+
+    "connectionmessage": {
+        "message": "Your web traffic is secured, You can enjoy private internet browsing."
+    },
+
+    "Disconnect": {
+        "message": "Disconnect"
+    },
+
+    "search": {
+        "message": "Choose a specific country"
+    },
+
+    "searchplaceholder": {
+        "message": "Search for Country"
+    },
+
+    "loading": {
+        "message": "Loading list of countries ..."
+    }
+}

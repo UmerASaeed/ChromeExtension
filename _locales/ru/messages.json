@@ -1,0 +1,125 @@
+{
+    "appName": {
+        "message": "VPN, Прокси, Смена IP, Разблокировка сайтов | BelkaVPN"
+    },
+
+    "shortAppName": {
+        "message": "BelkaVPN"
+    },
+
+    "appDesc": {
+        "message": "VPN, Прокси, Смена IP, Разблокировка сайтов | BelkaVPN"
+    },
+
+    "desc1": {
+        "message": "Защитите себя от перехвата данных"
+    },
+
+    "desc2": {
+        "message": "Меняйте местоположение, чтобы просматривать веб-сайты со всего мира."
+    },
+
+    "desc3": {
+        "message": "Пользуйтесь Интернетом безопасно в любом кафе, аэропорту или парке"
+    },
+
+    "skip": {
+        "message": "Пропустить"
+    },
+
+    "continue": {
+        "message": "Продолжить"
+    },
+
+    "loginto": {
+        "message": "Войдите в свой аккаунт"
+    },
+
+    "no_account": {
+        "message": "Не зарегистрированны? "
+    },
+
+    "signup": {
+        "message": " Регистрация"
+    },
+
+    "invalid": {
+        "message": "Не верный пользователь или пароль"
+    },
+
+    "emailPlaceholder": {
+		"message": " Email"
+	},
+
+	"passwordPlaceholder": {
+		"message": " ********"
+    },
+
+    "login": {
+        "message": "Войти"
+    },
+
+    "forgotpassword": {
+        "message": "Забыли пароль ?"
+    },
+
+    "confirmpassword": {
+        "message": " Подтвердить пароль"
+    },
+
+    "signme": {
+        "message": "РЕГИСТРАЦИЯ"
+    },
+
+    "back": {
+        "message": "НАЗАД"
+    },
+
+    "fields": {
+        "message": "Все поля необходимы для заполнения."
+    },
+
+    "notconnected": {
+        "message": "Не подключен"
+    },
+
+    "onmessage": {
+        "message": "Turn on BelkaVPN to encrypt your data and unlock the web."
+    },
+
+    "err": {
+        "message": "Ох! Проблема с подключением."
+    },
+
+    "connect": {
+        "message": "Авто подключение"
+    },
+
+    "location": {
+        "message": "Выбрать локацию"
+    },
+
+    "connected": {
+        "message": "Подключен к "
+    },
+
+    "connectionmessage": {
+        "message": "Ваше соединение защищено, You can enjoy private internet browsing."
+    },
+
+    "Disconnect": {
+        "message": "ВКЛЮЧИТЬ"
+    },
+
+    "search": {
+        "message": "Выберите локацию"
+    },
+
+    "searchplaceholder": {
+        "message": "Поиск по локации"
+    },
+
+    "loading": {
+        "message": "Загрузка, ждите ..."
+    }
+}

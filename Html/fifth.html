@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/belkavpnstyle.css" />
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-analytics.js"></script>
+    <script src="../js/firebase.js"></script>
+</head>
+<body>
+    <div class="select_header" id="select_header">     
+        <a id="goback" class="back_arr">
+            <img src="../img/arrow_back-24px.svg" alt="backbutton" >
+        </a>
+        <div  style="font-size:20px; display:inline;"></div>              
+    </div>
+    <div class="search_container" id="search_container">
+        <input id="search" type="search" class="search_box"><br/>
+        <div id="err"></div>    
+        <div id="loading"></div>  
+        <table class="table table-hover table-borderless table-responsive tbl" id="country_tbl">
+            <script src="../js/country_load.js"></script>
+        </table>
+    </div>
+</body>
+</html>
